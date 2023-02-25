@@ -1,0 +1,9 @@
+1002    Murphy    Diane         dmurphy@classicmodelcars.com    President           
+1056    Patterson Mary          mpatterso@classicmodelcars.com  VP Sales            
+1076    Firrelli  Jeff          jfirrelli@classicmodelcars.com  VP Marketing        
+1088    Patterson William       wpatterson@classicmodelcars.com Sales Manager (APAC)
+1102    Bondur    Gerard        gbondur@classicmodelcars.com    Sale Manager (EMEA) 
+1143    Bow       Anthony       abow@classicmodelcars.com       Sales Manager (NA)  
+1165    Jennings  Leslie        ljennings@classicmodelcars.com  Sales Rep           
+1166    Thompson  Leslie        lthompson@classicmodelcars.com  Sales Rep           
+1188    Firrelli  Julie         jfirrelli@classicmodelcars.com  Sales Rep           
