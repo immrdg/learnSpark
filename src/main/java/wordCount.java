@@ -87,17 +87,6 @@ public class wordCount {
 
             System.out.println("Total Words: "+wordCountSortedByValue.map(Tuple2::_2).reduce(Integer::sum));
 
-
-
-
-
-
-
-
-
-
-
-
         }
         catch (Exception e){
             System.out.println(e.getMessage());
