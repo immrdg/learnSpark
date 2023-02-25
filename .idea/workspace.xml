@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b6dafbc-456e-4ed9-b5db-c051c1ef5bd2" name="Changes" comment="resources">
+    <list default="true" id="9b6dafbc-456e-4ed9-b5db-c051c1ef5bd2" name="Changes" comment="added necessary dependencies">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/wordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wordCount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677300095614</updated>
       <workItem from="1677300097061" duration="4717000" />
-      <workItem from="1677313002685" duration="3895000" />
+      <workItem from="1677313002685" duration="4278000" />
     </task>
     <task id="LOCAL-00001" summary="project init">
       <created>1677300329264</created>
@@ -130,7 +129,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677300810412</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="config">
+      <created>1677318557541</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677318557541</updated>
+    </task>
+    <task id="LOCAL-00007" summary="solution">
+      <created>1677318589491</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677318589491</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added necessary dependencies">
+      <created>1677318625189</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677318625189</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +184,9 @@
     <MESSAGE value="IDE conf" />
     <MESSAGE value="word count" />
     <MESSAGE value="resources" />
-    <option name="LAST_COMMIT_MESSAGE" value="resources" />
+    <MESSAGE value="config" />
+    <MESSAGE value="solution" />
+    <MESSAGE value="added necessary dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="added necessary dependencies" />
   </component>
 </project>
