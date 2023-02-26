@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b6dafbc-456e-4ed9-b5db-c051c1ef5bd2" name="Changes" comment="added necessary dependencies">
+    <list default="true" id="9b6dafbc-456e-4ed9-b5db-c051c1ef5bd2" name="Changes" comment="rdd sum">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ReadTextFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wordCount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +58,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.26270375",
     "settings.editor.selected.configurable": "settings.sync",
     "vue.rearranger.settings.migration": "true"
   }
@@ -69,7 +70,21 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ReadTextFile">
+    <configuration name="RddSumExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RddSumExample" />
+      <module name="learnSpark" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadTextFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReadTextFile" />
+      <module name="learnSpark" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="wordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="wordCount" />
       <module name="learnSpark" />
@@ -79,7 +94,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadTextFile" />
         <item itemvalue="Application.wordCount" />
+        <item itemvalue="Application.RddSumExample" />
       </list>
     </recent_temporary>
   </component>
@@ -92,7 +109,8 @@
       <option name="presentableId" value="Default" />
       <updated>1677300095614</updated>
       <workItem from="1677300097061" duration="4717000" />
-      <workItem from="1677313002685" duration="4278000" />
+      <workItem from="1677313002685" duration="7652000" />
+      <workItem from="1677326468349" duration="5992000" />
     </task>
     <task id="LOCAL-00001" summary="project init">
       <created>1677300329264</created>
@@ -150,7 +168,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677318625189</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="config">
+      <created>1677318683687</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677318683687</updated>
+    </task>
+    <task id="LOCAL-00010" summary="removed blank lines">
+      <created>1677318700434</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677318700434</updated>
+    </task>
+    <task id="LOCAL-00011" summary="rdd sum">
+      <created>1677324904366</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677324904366</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,9 +223,11 @@
     <MESSAGE value="IDE conf" />
     <MESSAGE value="word count" />
     <MESSAGE value="resources" />
-    <MESSAGE value="config" />
     <MESSAGE value="solution" />
     <MESSAGE value="added necessary dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="added necessary dependencies" />
+    <MESSAGE value="config" />
+    <MESSAGE value="removed blank lines" />
+    <MESSAGE value="rdd sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="rdd sum" />
   </component>
 </project>
