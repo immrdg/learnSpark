@@ -83,7 +83,7 @@ public class orderDetail {
             // p2              1200 [ 200 + 1000 ]
 
             JavaPairRDD<String, Double> productTotalPurchaseAmount = orderPrice.reduceByKey(Double::sum);
-            productTotalPurchaseAmount.foreach(x-> System.out.println(x));
+            productTotalPurchaseAmount.take(10).forEach(System.out::println);
 
             // now that you have performed this step look at those values the look something like
             // 54024.87000000001 there are 14 digits to the right of the decimal point,
@@ -93,9 +93,20 @@ public class orderDetail {
             System.out.println("-------");
 
             productTotalPurchaseAmount = productTotalPurchaseAmount.mapValues(x-> (double) Math.round(x*100.0)/100.0);
-            productTotalPurchaseAmount.foreach(x-> System.out.println(x));
+            productTotalPurchaseAmount.take(10).forEach(System.out::println);
 
 
+
+            // so if you want to find top 5 products we can use sortByKey,
+            // but we need to swap and re-swap things
+
+            productTotalPurchaseAmount = productTotalPurchaseAmount.
+                    mapToPair(tuple -> new Tuple2<>(tuple._2, tuple._1)).
+                    sortByKey(false).
+                    mapToPair(tuple -> new Tuple2<>(tuple._2, tuple._1));
+
+            System.out.println("------ Top 10 ----------");
+            productTotalPurchaseAmount.take(10).forEach(System.out::println);
 
         }
         catch (Exception e){
